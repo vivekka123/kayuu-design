@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "image":"/Image/livingroomsofa.png",
+        "title":"Green Living Room Sofa",
+        "offer":"$1,200.00",
+        "rate":"$1,840.00",
+        "text":"&Free Shipping",
+        "productdetails":"Habitasse eaque wisi molestie, mollis pharetra convallis exercitation, distinctio eu arcu fugit nibh donec exercitationem, quisque imperdiet mattis proident cupiditate habitant assumenda. Pariatur minus nibh necessitatibus sociis minim, consectetur dapibus.",
+        "categories":"Categories",
+        "content": "Living Room, Sofa",
+        "sale":"Sale!",
+        "icon":"IoSearch",
+        "features":"Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit. Curabitur nec fringilla sem. Nullam at diam et ligula tincidunt luctus. Ut fringilla vitae orci eget suscipit. Etiam ultricies justo ac feugiat dignissim.",
+        "instructions":"Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit."
+    }
+]
