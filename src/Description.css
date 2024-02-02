@@ -1,0 +1,11 @@
+.card-description{
+    height:300px !important;
+}
+.card-descriptions{
+    height: 300px !important;
+    border-style: solid !important;
+    border-color: rgb(213 210 210) !important;
+}
+.description-row{
+    padding: 0;
+}

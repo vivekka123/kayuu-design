@@ -100,6 +100,7 @@ a{
     background-color: #edb932;
     font-size: 12px;
     line-height: 14px;
+    border: none;
 }
 .add-to-cart:hover{
     color: #ffff;
@@ -159,7 +160,7 @@ a{
         text-align: justify;
     }
     .breadcrumb-item{
-        font-size: small;
+        font-size: medium;
         padding-left: 21px;
     }
     .card-text{
@@ -281,7 +282,7 @@ a{
         padding-right: 2px !important;
     }
     .image-search{
-        margin-right: 30px;
+        margin-right: -70px;
     }
     .card-title{
         width: 200px;
@@ -294,14 +295,15 @@ a{
         padding-left: 23px;
     }
     .product-shipping{
-        margin-right: 35px;
+        margin-right: 0px;
         font-size: 14px;
     }
     .card-text{
         font-size: 16px;
+        width: 223px;
     }
     .product-price{
-        margin-left: 6px;
+        margin-left: 30px;
     }
     .card-group{
         display: inline-block !important;

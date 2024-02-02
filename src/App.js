@@ -3,6 +3,9 @@
 import './App.css';
 import jsonData from "./ProductDetails.json"
 import AutoLayoutExample from './Details';
+import FillExample from './DescriptionDetails';
+
+
 
 function App() {
   return (
@@ -12,6 +15,7 @@ function App() {
       
       />
      ))}
+        <FillExample />
     </div>
   );
 }
