@@ -133,15 +133,13 @@ a{
     /* width: 586px;
     height: 600px; */
 }
+/* screen 1025px*/
 @media screen and (max-width:1025px) {
     .card-image{
-        height:390px;
+        padding-top: 150px;
     }
-    .container-fluid{
-
-    }
-    .product-shipping{
-        
+    .card-body{
+        height: 369px;
     }
     .breadcrumb{
         padding-left: 50px !important;
@@ -167,16 +165,190 @@ a{
     .card-text{
         font-size: 19px;
     }
-    .card-categories{
-
+    .product-price{
+        margin-left: 90px;
     }
-    .product-offer{
-
+}
+/*screen 768px*/
+@media screen and (max-width:768px) {
+    .card-image{
+        padding-top: 150px;
+        padding-right: 20px;
+    }
+    .card-body{
+        margin-left: -16px;
+    }
+    .breadcrumb{
+        padding-left: 50px !important;
+        font-size: 14px !important;
+    }
+    .row{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .image-search{
+        margin-right: 30px;
+    }
+    .card-title{
+        width: 400px;
+        margin-left: 80px;
+        font-size: 35px !important;
+        text-align: justify;
+    }
+    .breadcrumb-item{
+        font-size: medium;
+        padding-left: 30px;
+    }
+    .product-shipping{
+        margin-right: 227px;
+    }
+    .card-text{
+        font-size: 19px;
     }
     .product-price{
         margin-left: 90px;
     }
-    .about-product{
-
+    .card-group{
+        display: inline-block !important;
+    }
+}
+/* screen 426px */
+@media screen and (max-width:426px) {
+    .card-image{
+        padding-top: 150px;
+        padding-right: 20px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    .card-body{
+        margin-left: -60px;
+        height: 350px !important;
+    }
+    .breadcrumb{
+        padding-left: 8px !important;
+        font-size: 14px !important;
+    }
+    .row{
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    .image-search{
+        margin-right: 30px;
+    }
+    .card-title{
+        width: 303px;
+        margin-left: 33px;
+        font-size: 35px !important;
+        text-align: justify;
+    }
+    .breadcrumb-item{
+        font-size: small;
+        padding-left: 30px;
+    }
+    .product-shipping{
+        margin-right: 0px;
+    }
+    .sale{
+        font-size: 14px;
+        margin-left: 35px;
+    }
+    .product-price{
+        margin-left: 25px;
+    }
+    .card-group{
+        display: inline-block !important;
+    }
+}
+/* screen 375px */
+@media screen and (max-width:375px) {
+    .card-image{
+        padding-top: 150px;
+        padding-right: 20px;
+    }
+    .card-body{
+        margin-left: -68px;
+        height: 350px !important;
+        font-size: 15px;
+        width: 442px;
+    }
+    .breadcrumb{
+        padding-left: 8px !important;
+        font-size: 13px !important;
+    }
+    .row{
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    .image-search{
+        margin-right: 30px;
+    }
+    .card-title{
+        width: 200px;
+        margin-left: 33px;
+        font-size: 35px !important;
+        text-align: justify;
+    }
+    .breadcrumb-item{
+        font-size: smaller;
+        padding-left: 23px;
+    }
+    .product-shipping{
+        margin-right: 35px;
+        font-size: 14px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .product-price{
+        margin-left: 6px;
+    }
+    .card-group{
+        display: inline-block !important;
+    }
+}
+/* screen 325px */
+@media screen and (max-width:320px) {
+    .card-image{
+        padding-top: 150px;
+        padding-right: 20px;
+    }
+    .card-body{
+        margin-right: 3px;
+        height: 350px !important;
+        font-size: 12px;
+        width: 389px;
+    }
+    .breadcrumb{
+        padding-left: 8px !important;
+        font-size: 13px !important;
+    }
+    .row{
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    .image-search{
+        margin-right: 30px;
+    }
+    .card-title{
+        width: 200px;
+        margin-left: 30px;
+        font-size: 35px !important;
+        text-align: justify;
+    }
+    .breadcrumb-item{
+        font-size: smaller;
+        padding-left: 23px;
+    }
+    .product-shipping{
+        margin-right: 39px;
+        font-size: 14px;
+    }
+    .card-text{
+        font-size: 16px;
+        width:237px;
+    }
+    .card-group{
+        display: inline-block !important;
     }
 }
