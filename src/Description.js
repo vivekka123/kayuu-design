@@ -9,7 +9,7 @@ import './Description.css';
 
 function TextExample() {
   return (
-    <Container fluid>
+    <>
     <Row className="description-row">
         <CardGroup>
             <Col>
@@ -20,7 +20,7 @@ function TextExample() {
             </Col>
             <Col>
             <Card className='card-descriptions'>
-                <CardTitle>Features</CardTitle>
+                <CardTitle className='description-title'>Features</CardTitle>
                 <Card.Text className='card-content'>
                 Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit. Curabitur nec fringilla sem. Nullam at diam et ligula tincidunt luctus. Ut fringilla vitae orci eget suscipit. Etiam ultricies justo ac feugiat dignissim.
                 </Card.Text>
@@ -32,7 +32,7 @@ function TextExample() {
         <CardGroup>
             <Col>
             <Card className='card-descriptions'>
-                <CardTitle>
+                <CardTitle className='description-title'>
                     Care Instructions
                 </CardTitle>
                 <Card.Text className='card-content'>
@@ -47,7 +47,7 @@ function TextExample() {
             </Col>
         </CardGroup>
     </Row>
-    </Container>
+    </>
   );
 }
 

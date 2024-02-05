@@ -1,24 +1,25 @@
+import { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import TextExample from './Description';
 import Reviews from './Reviews';
 
-function FillExample() {
+function ControlledTabsExample() {
+
+
   return (
     <Tabs
-      defaultActiveKey="profile"
-      id="fill-tab-example"
+      id="controlled-tab-example"
       className="mb-3"
-      fill
     >
-      <Tab eventKey="home" title="Description">
+      <Tab eventKey="Description" title="Description">
         <TextExample />
       </Tab>
-      <Tab eventKey="profile" title="Reviews">
-        <Reviews />
+      <Tab eventKey="Reviews" title="Reviews(0)">
+       <Reviews />
       </Tab>
     </Tabs>
   );
 }
 
-export default FillExample;
+export default ControlledTabsExample;
