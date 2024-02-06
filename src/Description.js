@@ -14,7 +14,7 @@ function TextExample() {
     <>
     <Row className="description-row">
         <CardGroup>
-            <Col>
+            <Col className='description-column'>
             <Card>
                 <CardText className='card-description'>
                 </CardText>
@@ -79,7 +79,7 @@ function TextExample() {
                         </Card.Text>
             </Card>
             </Col>
-            <Col>
+            <Col className='description-column'>
             <Card className='card-description'>
 
             </Card>

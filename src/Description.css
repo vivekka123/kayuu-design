@@ -196,6 +196,24 @@
     .card-form-review{
         width: 760px !important;
     }
+    .description-col {
+        width: 713px;
+    }
+    .description-column{
+        width: 710px;
+    }
+    .card-content{
+        width: 620px;
+    }
+    .description-title{
+        margin-left: 185px;
+    }
+    .features-detail{
+        margin-left: 65px;
+    }
+    .features-details{
+        margin-left: 40px;
+    }
     .review-form-control{
         width: 224px !important;
         margin-left: 75px !important;
