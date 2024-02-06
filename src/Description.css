@@ -70,7 +70,7 @@
 }
 .review-cards{
     border:1px solid rgb(213 210 210) !important;
-    height: 620px;
+    height: 620px !important;
 }
 .review-star-rating{
     color:#ffff00
