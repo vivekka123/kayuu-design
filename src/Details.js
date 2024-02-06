@@ -10,7 +10,6 @@ import BreadcrumbExample from './Breadcrumb';
 import Counter from './Counter';
 import CardGroup from 'react-bootstrap/esm/CardGroup';
 import { IoSearch } from "react-icons/io5";
-import FillExample from './DescriptionDetails';
 import ControlledTabsExample from './DescriptionDetails';
 
 function AutoLayoutExample({title,rate,offer,text,productdetails,categories,content,sale}) {

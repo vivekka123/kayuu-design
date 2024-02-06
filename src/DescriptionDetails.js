@@ -8,6 +8,7 @@ function ControlledTabsExample() {
 
 
   return (
+    
     <Tabs
       id="controlled-tab-example"
       className="mb-3"

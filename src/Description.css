@@ -1,8 +1,8 @@
 .card-description{
-    height:300px !important;
+    height:420px !important;
 }
 .card-descriptions{
-    height: 300px !important;
+    height: 420px !important;
     border: 1px solid #afa7a7!important;
     border-color: rgb(213 210 210) !important;
 }
@@ -70,6 +70,7 @@
 }
 .review-cards{
     border:1px solid rgb(213 210 210) !important;
+    height: 620px;
 }
 .review-star-rating{
     color:#ffff00
@@ -100,4 +101,239 @@
 }
 .description-title{
     margin-top: 55px !important;
+    font-family:'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+}
+.description-list{
+    font-size: 19px;
+    font-weight: 400;
+}
+.card-icons{
+    margin-right: 111px;
+}
+.card-list{
+    margin-right: 163px;
+}
+.tab-icons{
+    margin-right: 173px;
+}
+.instruction-list{
+    margin-right: 203px;
+}
+.card-instruction-list{
+    margin-right: 151px;
+}
+.card-description-list{
+    margin-right: 58px;
+}
+.card-instruction-point{
+    margin-right: 216px;
+}
+@media screen and (max-width:1024px) {
+    .review-title{
+        width: 454px;
+    }
+    .review-text{
+        width: 630px;
+        margin-left: 86px;
+    }
+    .review-rating{
+        margin-left: 86px;
+        width:220px;
+    }
+    .col-form-label{
+        margin-left: 84px !important;
+        text-align: left;
+    }
+    .review-comment{
+        margin-left: 94px !important;
+        width: 84% !important;
+    }
+    .card-review-label{
+        margin-right: 231px !important;
+    }
+    .review-form-control{
+        margin-left: 85px !important;
+        width: 350px !important;
+    }
+    .card-form-review{
+        width: 930px;
+    }
+    #formGridCheckbox{
+        width: 1362px;
+    }
+    .form-check-input{
+        margin-left: 80px !important;
+    }
+    .form-check-label{
+        margin-right: 649px !important;
+        text-align: left;
+    }
+    .btn-warning{
+        margin-left: 93px !important;
+    }
+    .review-cards{
+        height: 610px !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .card-form-review{
+        width: 760px !important;
+    }
+    .review-form-control{
+        width: 224px !important;
+        margin-left: 75px !important;
+    }
+    .card-review-label{
+        margin-left: 77px;
+    }
+    .review-text{
+        margin-left: 74px;
+    }
+    .review-rating{
+        margin-left: 77px;
+    }
+    .col-form-label{
+        margin-left: 76px !important;
+    }
+    .review-comment{
+        margin-left: 88px !important;
+    }
+    .form-check-input{
+        margin-left: 67px !important;
+    }
+}
+@media screen and (max-width:425px) {
+    .review-title{
+        width: 335px;
+    }
+    .review-cards{
+        height: 720px !important;
+    }
+    .card-form-review{
+        width: 372px !important;
+    }
+    .review-form-control{
+        width: 324px !important;
+        margin-left: 42px !important;
+    }
+    .card-review-label{
+        margin-left: 0px;
+    }
+    .review-text{
+        margin-left: 17px;
+        font-size: 19px !important;
+        width: 95%;
+    }
+    .review-rating{
+        margin-left: 10px;
+    }
+    .col-form-label{
+        margin-left: 36px !important;
+    }
+    .review-comment{
+        margin-left: 47px !important;
+        width: 335px !important;
+    }
+    .form-check-input{
+        margin-left: 23px !important;
+    }
+    .form-check-label{
+        margin-right: 991px !important;
+        width: 23%;
+        font-size: 15px;
+    }
+    .btn-warning{
+        margin-left: 45px !important;
+    }
+}
+@media screen and (max-width:375px) {
+    .review-title{
+        width: 292px;
+    }
+    .review-cards{
+        height: 735px !important;
+    }
+    .card-form-review{
+        width: 372px !important;
+    }
+    .review-form-control{
+        width: 290px !important;
+        margin-left: 42px !important;
+    }
+    .card-review-label{
+        margin-left: 0px;
+    }
+    .review-text{
+        margin-left: 14px;
+        font-size: 19px !important;
+        width: 83%;
+    }
+    .review-rating{
+        margin-left: 10px;
+    }
+    .col-form-label{
+        margin-left: 36px !important;
+    }
+    .review-comment{
+        margin-left: 47px !important;
+        width: 294px !important;
+    }
+    .form-check-input{
+        margin-left: 23px !important;
+    }
+    .form-check-label{
+        margin-right: 991px !important;
+        width: 23%;
+        font-size: 15px;
+    }
+    .btn-warning{
+        margin-left: 45px !important;
+    }
+}
+@media screen and (max-width:320px) {
+    .review-title{
+        width: 244px;
+    }
+    .review-cards{
+        height: 735px !important;
+    }
+    .card-form-review{
+        width: 372px !important;
+    }
+    .review-form-control{
+        width: 227px !important;
+        margin-left: 42px !important;
+    }
+    .card-review-label{
+        margin-left: 0px;
+    }
+    .review-text{
+       margin-left: 29px;
+       font-size: 19px !important;
+       width: 84%;
+       text-align: justify;
+    }
+    .review-rating{
+        margin-left: 10px;
+    }
+    .col-form-label{
+        margin-left: 36px !important;
+    }
+    .review-comment{
+        margin-left: 47px !important;
+        width: 235px !important;
+    }
+    .form-check-input{
+        margin-left: 23px !important;
+    }
+    .form-check-label{
+        margin-right: 1057px !important;
+        width: 15%;
+        font-size: 13px;
+    }
+    .btn-warning{
+        margin-left: 45px !important;
+        font-size: 10px !important;
+    }
 }

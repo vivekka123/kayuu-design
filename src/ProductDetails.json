@@ -16,6 +16,11 @@
         "title2":"Feature",
         "body":"Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit. Curabitur nec fringilla sem. Nullam at diam et ligula tincidunt luctus. Ut fringilla vitae orci eget suscipit. Etiam ultricies justo ac feugiat dignissim.",
         "title3":"Care Instructions",
-        "context":"Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit."
+        "context":"Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit.",
+        "featurespoint1":"Etiam eu tortor tempor, malesuada",
+        "featurespoint2":"Nunc vitae erat sit amet neque varius consequat",
+        "featurespoint3":"Lorem ipsum dolor sit amet",
+        "descriptionpoints":"Vivamus lobortis posuere ante",
+        "descriptionlist":"Morbi nisi diam, cursus non ultricies"
     }
 ]
