@@ -20,13 +20,13 @@ function TextExample() {
                 </CardText>
             </Card>
             </Col>
-            <Col>
+            <Col className='description-col'>
             <Card className='card-descriptions'>
                 <CardTitle className='description-title'>Features</CardTitle>
                 <Card.Text className='card-content'>
                 Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit. Curabitur nec fringilla sem. Nullam at diam et ligula tincidunt luctus. Ut fringilla vitae orci eget suscipit. Etiam ultricies justo ac feugiat dignissim.
                 </Card.Text>
-                <Card.Text >
+                <Card.Text className='features-details' >
                                    
                     <div  className='card-icons'>                    
                     <span ><TiTick /></span>
@@ -47,7 +47,7 @@ function TextExample() {
     </Row>
     <Row className="description-row">
         <CardGroup>
-            <Col>
+            <Col className='description-col'>
             <Card className='card-descriptions'>
                 <CardTitle className='description-title'>
                     Care Instructions
@@ -55,7 +55,7 @@ function TextExample() {
                 <Card.Text className='card-content'>
                 Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit.
                 </Card.Text>
-                <Card.Text>
+                <Card.Text className='features-detail'>
                     <div className='tab-icons'>
                     <span><TiTick /></span>
                     <span className='description-list'>Etiam eu tortor tempor, malesuada</span>

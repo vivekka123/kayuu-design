@@ -130,6 +130,22 @@
     margin-right: 216px;
 }
 @media screen and (max-width:1024px) {
+    .description-col{
+        width:482px;
+    }
+    .card-content{
+        width:380px;
+    }
+    .card-title{
+        text-align: center;
+    }
+    .features-details{
+        width:492px;
+    }
+    .features-detail{
+        width:500px;
+        margin-left: 20px;
+    }
     .review-title{
         width: 454px;
     }
