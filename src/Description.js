@@ -32,7 +32,7 @@ function TextExample() {
                     <span ><TiTick /></span>
                     <span className='description-list'>Etiam eu tortor tempor, malesuada</span>
                     </div>              
-                     <div>
+                     <div className="feature-list">
                     <span><TiTick /></span>
                     <span className='description-list'>Nunc vitae erat sit amet neque varius consequat</span>
                     </div>
@@ -60,7 +60,7 @@ function TextExample() {
                     <span><TiTick /></span>
                     <span className='description-list'>Etiam eu tortor tempor, malesuada</span>
                     </div>
-                    <div className='card-description-list'>
+                    <div className='feature-lists'>
                         <span><TiTick /></span>
                         <span className='description-list'>Nunc vitae erat sit amet neque varius consequat</span>
                         </div>

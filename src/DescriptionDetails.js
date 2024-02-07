@@ -11,7 +11,7 @@ function ControlledTabsExample() {
     
     <Tabs
       id="controlled-tab-example"
-      className="mb-3"
+      className="card-tab"
     >
       <Tab eventKey="Description" title="Description">
         <TextExample />
