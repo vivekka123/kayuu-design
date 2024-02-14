@@ -15,8 +15,8 @@ function TextExample() {
     <Row className="description-row">
         <CardGroup>
             <Col className='description-column'>
-            <Card>
-                <CardText className='card-description'>
+            <Card className='card-description'>
+                <CardText >
                 </CardText>
             </Card>
             </Col>

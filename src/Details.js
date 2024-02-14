@@ -14,12 +14,12 @@ import ControlledTabsExample from './DescriptionDetails';
 
 function AutoLayoutExample({title,rate,offer,text,productdetails,categories,content,sale}) {
   return (
-    <Container fluid>
-      <Row>
-        <CardGroup>
-        <Col>
-        <Card>
-          <CardText>
+    <Container fluid className='product-details'>
+      <Row className='products-row'>
+        <CardGroup className='products-group'>
+        <Col className='product-height'>
+        <Card className='products-detail-card'>
+          <CardText className='product-text-details'>
         <span className='sale'>{sale}</span>
         <span>
         <IoSearch  className='image-search' />
@@ -29,21 +29,21 @@ function AutoLayoutExample({title,rate,offer,text,productdetails,categories,cont
         </Card>
         </Col>
         <Col>
-        <Card>
+        <Card className='products-detail-card'>
         <BreadcrumbExample />
-        <Card.Title>
+        <Card.Title className='product-detail-title'>
         {title}
         </Card.Title>
-        <CardText>
+        <CardText className="product-text-details">
          <span className='product-price'>{rate}</span> 
          <span className='product-offer'>{offer}</span> 
          <span className='product-shipping'>{text}</span> 
           
         </CardText>
-        <CardBody>
-            <span className='about-product'>
+        <CardBody className='product-body'>
+            <div className='about-product'>
       {productdetails}
-      </span>
+      </div>
       <Counter />
       <p className='horizontal-line'></p>
       <span className='card-categories'>{categories}</span>

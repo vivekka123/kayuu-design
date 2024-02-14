@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import TextExample from './Description';
@@ -12,8 +12,11 @@ function ControlledTabsExample() {
     <Tabs
       id="controlled-tab-example"
       className="card-tab"
+      variant='underline'
     >
-      <Tab eventKey="Description" title="Description">
+      <Tab eventKey="Description" title="Description"
+      className='description-tab'
+      >
         <TextExample />
       </Tab>
       <Tab eventKey="Reviews" title="Reviews(0)">
