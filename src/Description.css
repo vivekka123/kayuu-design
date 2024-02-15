@@ -214,7 +214,7 @@
         margin-left: 105px !important;
     }
     .form-check-label{
-        margin-right: 649px !important;
+        margin-right: 166px !important;
         text-align: left;
     }
     .submit-button{
@@ -233,7 +233,7 @@
 }
 @media screen and (max-width:768px) {
     .card-form-review{
-        width: 760px !important;
+        width: 630px !important;
     }
     .description-col {
         width: 713px;
@@ -245,7 +245,7 @@
         width: 454px;
         margin-left: 58px !important;
     }
-    .description-row{
+    .review-column-grid{
 
     }
     .card-tab{
@@ -270,7 +270,7 @@
         margin-right: 185px;
     }
     .review-form-control{
-        width: 210px !important;
+        width: 237px !important;
         margin-left: 64px !important;
     }
     .card-review-label{
@@ -293,6 +293,9 @@
     }
     .submit-button {
         margin-left: 63px !important;
+    }
+    .form-check-label {
+        margin-right: -29px !important;
     }
 }
 @media screen and (max-width:425px) {
@@ -390,7 +393,7 @@
         height: 735px !important;
     }
     .card-form-review{
-        width: 372px !important;
+        width: 322px !important;
     }
     .review-form-control{
         width: 271px !important;
@@ -408,7 +411,7 @@
         margin-left: 30px;
     }
     .features-details{
-        width: 369px;
+        width: 330px;
         margin-left: 28px;
         font-size: 15px;
     }
@@ -451,11 +454,10 @@
         line-height: 1.8;
     }
     .card-tab{
-        width: 342px;
+        width: 342px !important;
     }
     .card-validation{
-        margin-left: -76px;
-        margin-right: 209px;
+        margin-left: -37px;
     }
     .products-detail-card {
         height: 520px !important;
@@ -463,17 +465,17 @@
 }
 @media screen and (max-width:320px) {
     .review-title{
-        width: 246px;
+        width: 236px;
         margin-left: 31px !important;
     }
     .review-cards{
         height: 735px !important;
     }
     .card-form-review{
-        width: 372px !important;
+        width: 256px !important;
     }
     .review-form-control{
-        width: 210px !important;
+        width: 179px !important;
         margin-left: 27px !important;
     }
     .card-review-label{
@@ -496,15 +498,10 @@
     }
     .review-comment{
         margin-left: 40px !important;
-        width: 217px !important;
+        width: 174px !important;
     }
     .form-check-input{
-        margin-left: 23px !important;
-    }
-    .form-check-label{
-        margin-right: 1057px !important;
-        width: 15%;
-        font-size: 13px;
+        margin-left: 46px !important;
     }
     .submit-button{
         margin-left: 45px !important;
@@ -542,8 +539,7 @@
     width: 120px !important;
     }
     .card-validation {
-    margin-left: 15px;
-    margin-right: 284px;
+    margin-left: 30px;
     }
     .card-tab {
         width: 290px !important;
@@ -554,6 +550,6 @@
         margin-right: 24px !important;
         width: 90%;
        font-size: 13px;
-       margin-left: 38px;
+       margin-left: 45px;
     }
 }
