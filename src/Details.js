@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card'
 import Image from './Images/livingroomgreensofa.png';
+// import Image from './Images/logo512.png';
 import CardText from 'react-bootstrap/esm/CardText';
 import "./ProductDetails.css";
 import CardBody from 'react-bootstrap/esm/CardBody';
@@ -13,6 +14,7 @@ import { IoSearch } from "react-icons/io5";
 import ControlledTabsExample from './DescriptionDetails';
 
 function AutoLayoutExample({title,rate,offer,text,productdetails,categories,content,sale}) {
+  
   return (
     <Container fluid className='product-details'>
       <Row className='products-row'>
@@ -25,6 +27,7 @@ function AutoLayoutExample({title,rate,offer,text,productdetails,categories,cont
         <IoSearch  className='image-search' />
         </span>
         </CardText>
+        {/* <span>{image}</span> */}
         <Card.Img src={Image} alt='Image' className='card-image'/>
         </Card>
         </Col>

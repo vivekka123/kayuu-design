@@ -8,8 +8,11 @@ import Button from 'react-bootstrap/Button';
 import './Description.css';
 import FormLabel from 'react-bootstrap/esm/FormLabel';
 
+
 const Reviews = () => {
-    const [formData, setFormData] = useState({
+
+
+  const [formData, setFormData] = useState({
         name: '',
         message: '',
         email: '',
@@ -64,7 +67,7 @@ const Reviews = () => {
    
     
   return (
-    <Form onSubmit={handleSubmit}>
+ 
     <Card className='review-card'>
        
         <Card className='review-cards' >
@@ -79,13 +82,16 @@ const Reviews = () => {
                <span className='review-star-rating' onClick={handleStarClick}> <CiStar /><CiStar /><CiStar /><CiStar /><CiStar /></span>
             </Card.Text>
             <Row>
-                <FormLabel column lg={12} className='card-context'>
+                <FormLabel column lg={12} className='card-context' >
                     Your Review
                     </FormLabel>
-                <Form.Control type="text" className='review-comment' name='message' 
+                <Form.Control hasValidation type="text" className='review-comment' name='message' 
                  value={formData.message}
                  onChange={handleChange}
                 required />
+                <Form.Control.Feedback type='invalid'>
+                  Please enter your review
+                </Form.Control.Feedback>
                  {errors.message && <span>{errors.message}</span>}
             </Row>
             <Form className='card-form-review'>
@@ -122,7 +128,7 @@ const Reviews = () => {
                         >Submit</Button>
         </Card>
     </Card>
-    </Form>
+    
   )
 }
 

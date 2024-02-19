@@ -22,5 +22,17 @@
         "featurespoint3":"Lorem ipsum dolor sit amet",
         "descriptionpoints":"Vivamus lobortis posuere ante",
         "descriptionlist":"Morbi nisi diam, cursus non ultricies"
+    },
+    {
+        "id":2,
+        "image":"/Image/logo512.png"
+    },
+    {
+        "id":3,
+        "image":"/Image/livingroomsofa.png"
+    },
+    {
+        "id":4,
+        "image":"/Image/logo512.png"
     }
 ]
